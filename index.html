@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEAR Protocol | Reimagine your world</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+
+    
+    <style>
+    
+    p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+
+        }
+    </style>
+
+</head>
+
+<body class="" onload=todayDate()>
+    <div class="wrapper ">
+        <header class="h-auto bg-gradient-to-r from-primary to-white">
+
+
+
+            <nav className=" ">
+                <div class="flex  px-10 md:mx-auto py-4 justify-center  bg-white">
+                    <div class="logo items-center ">
+                        <img class="block h-14 w-auto mr-2" src="imgs/near_logo.png" alt="Workflow" />
+                    </div>
+
+
+                    <!-- <div class="hidden md:flex space-x-4 item-center">
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Learn
+                        </a>
+
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Developers
+                        </a>
+
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Founders & creators
+                        </a>
+
+
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Community
+                        </a>
+
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Blog
+                        </a>
+
+
+                        <a href="#"
+                            class=" hover:underline hover:underline-offset-8    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                            Careers
+                        </a>
+
+
+
+
+                    </div> -->
+
+
+                    <!-- Mobile menu button -->
+                    <!-- <div class="md:hidden mobile-btn  flex items-center">
+                        <button class="outline-none mobile-menu-button" data-collapse-toggle="mobile-men "
+                            type="button">
+                            <svg class=" w-10 h-10 text-gray-500 hover:text-secondary3 " x-show="!showMenu" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+
+
+                    </div> -->
+
+                   
+                </div>
+
+
+
+                <!-- <div class="hidden mobile-menu px-10 space-y-3 p-10 item-start bg-white">
+
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-8 block    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Learn
+                    </a>
+
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-8  block   text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Developers
+                    </a>
+
+
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-8 block    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Founders & creators
+                    </a>
+
+
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-8 block    text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Community
+                    </a>
+
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-8  block   text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Blog
+                    </a>
+
+
+                    <a href="#"
+                        class="hover:underline hover:underline-offset-8  block  text-sm font-semibold  hover:text-secondary3 px-3 py-2 rounded-md ">
+                        Careers
+                    </a>
+
+
+
+
+                </div> -->
+
+
+            </nav>
+            <div class="content grid grid-cols-1 md:grid-cols-2 px-8 md:px-20 py-8 pt-20">
+               <div>
+                <a
+                class="border border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Near</a>
+
+                <div class="heading-text  md:w-full pt-16">
+                    <h1 class="text-5xl text-extrabold text-secondary2">Reimagine your <span
+                            class="text-secondary">world</span>.</h1>
+                    <p class="text-sm pt-6 mb-10">Through simple, secure, and scalable technology, NEAR empowers
+                        millions to invent and explore new experiences. Business, creativity, and community are being
+                        reimagined for a more sustainable and inclusive future.
+
+                    </p>
+                </div>
+               </div>
+               <div class="hidden md:block img w-full">
+                <img src="imgs/1.jpg" loading="lazy" class="object-cover" alt="">
+
+               </div>
+            </div>
+        </header>
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="img">
+                        <img src="imgs/3.jpg" loading="lazy" class="object-contain" alt="">
+                    </div>
+                    <div class="heading-text md:w-3/4">
+                        <div class="con ">
+                            <a
+                                class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">About</a>
+
+                        </div>
+
+                        <h1 class="text-5xl pt-10 text-extrabold text-secondary2">What is <span
+                                class="text-secondary uppercase">Near</span>.</h1>
+                        <p class="text-sm pt-6 mb-14 tracking-wide">NEAR is a decentralized development platform utilizing
+                            developer-friendly, sharded, proof-of-stake public blockchain that aspires to make it very
+                            easy for developers to build decentralized applications (dapps). Dapps provide users with
+                            easy-to-use applications that guarantee the security of high values assets like money and
+                            identity.
+
+
+
+                        </p>
+
+
+                       
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-primary to-white ">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
+
+                    <div class="heading-text md:w-3/4">
+                        <div class="con ">
+                            <a
+                                class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Works</a>
+
+                        </div>
+                        <h1 class="text-5xl pt-10 text-extrabold text-secondary2">How it <span
+                                class="text-secondary uppercase">works</span>.</h1>
+                        <p class="text-sm pt-6 mb-14 tracking-wide">NEAR provides a community-operated cloud-based infrastructure for
+                            deploying and running dapps by combining the features of a decentralized database with a
+                            serverless computing platform. The NEAR token, which allows this platform to run, also
+                            enables applications built on it to interact with each other.
+
+
+
+                        </p>
+                    
+                    </div>
+
+                    <div class="img">
+                        <img src="imgs/2.jpg" loading="lazy" class="object-contain" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
+                <div class="  grid grid-cols-1 md:grid-cols-2 gap-10 align-center">
+                    <div class="order-2 md:order-1 " >
+                        <img src="imgs/6.jpg" loading="lazy" class="object-contain" alt="">
+                        </div>
+                        <div class="heading-text order-1 md:order-2 ">
+                            <div class="img order">
+                            <div class="con ">
+                                <a
+                                    class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Faster</a>
+    
+                            </div>
+                            <h1 class="text-5xl pt-10 text-extrabold text-secondary2">Why is it <span
+                                    class="text-secondary uppercase">Faster</span>.</h1>
+                            <p class="text-sm pt-6 mb-14 tracking-wide">
+    
+                                The NEAR platform has been designed to be used in a permissionless way. However, a set of
+                                community-built tools and reference guides have been created to help developers. The NEAR
+                                team provides a set of straightforward command-line tools to enable developers to easily
+                                create, test and deploy applications from their local environments.
+    
+                            </p>
+                         
+    
+                        </div>
+                    </div>
+
+                </div>
+                
+                  
+            </div>
+        </section>
+
+
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-primary to-white ">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
+
+                    <div class="heading-text md:w-3/4">
+
+                        <div class="con ">
+                            <a
+                                class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Done</a>
+
+                        </div>
+                        <h1 class="text-5xl pt-10 text-extrabold text-secondary2">What can be done on <span
+                                class="text-secondary uppercase tracking-wide">Near</span>.</h1>
+                        <p class="text-sm pt-6 mb-14">Build decentralized apps on a developer-friendly platform that
+                            features low fees, high speeds, and infinite scalability. Start up or grow up on a platform
+                            that sets you up for success. Investors, partners, and users are waiting. Belong to a
+                            community. When you find your purpose, you find your people. Pick a wallet, create an
+                            account, and start contributing today.
+
+
+
+                        </p>
+                   
+
+                    </div>
+
+                    <div class="img">
+                        <img src="imgs/12.jpg" loading="lazy" class="object-contain" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-white to-primary ">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="img order-2 md:order-1">
+                        <img src="imgs/7.jpg" loading="lazy" class="object-contain" alt="">
+                    </div>
+                    <div class="heading-text md:w-3/4 order-1 md:order-2">
+
+                        <div class="con ">
+                            <a
+                                class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">Build</a>
+
+                        </div>
+                        <h1 class="text-5xl text-extrabold pt-10 text-secondary2">Who can build on <span
+                                class="text-secondary uppercase">Near</span>.</h1>
+                        <p class="text-sm pt-6 mb-14">
+
+                            Through simple, secure, and scalable technology, NEAR empowers millions to invent and
+                            explore new experiences. Business, creativity, and community are being reimagined for a more
+                            sustainable and inclusive future.
+
+
+
+                        </p>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="content py-20 md:px-20 px-8 bg-gradient-to-r from-primary to-white ">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-10">
+
+                    <div class="heading-text md:w-3/4">
+                        <div class="con ">
+                            <a
+                                class="border  border-secondary4 rounded-full bg-secondary4 text-secondary px-6 py-2 uppercase">building</a>
+
+                        </div>
+                        <h1 class="text-5xl pt-10 text-extrabold text-secondary2">Who is building on <span
+                                class="text-secondary uppercase">Near</span>.</h1>
+                        <p class="text-sm pt-6 ">Build decentralized apps on a developer-friendly platform that features
+                            low fees, high speeds, and infinite scalability. Start up or grow up on a platform that sets
+                            you up for success. Investors, partners, and users are waiting. Belong to a community. When
+                            you find your purpose, you find your people. Pick a wallet, create an account, and start
+                            contributing today.
+
+
+
+
+
+                        </p>
+
+                        <p class="text-sm pt-6 mb-12">
+
+                            NEAR focuses on providing solutions to the two core problems of today's blockchains —
+                            usability and scalability. Usability for end-users is achieved by providing a security model
+                            for wallet interactions and giving developers more opportunities to create experiences that
+                            closely resemble applications and experiences the masses are familiar with.
+
+                        </p>
+                       
+                    </div>
+
+                    <div class="img">
+                        <img src="imgs/11.jpg" loading="lazy" class="object-contain" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <!-- <div class="newsletter  items-center grid grid-cols-1 md:grid-cols-2 bg-white py-10 px-8 md:px-20 gap-6">
+                <div class="form-group flex  items-center ">
+                    <span class="pr-10"><i class=" fa-solid fa-envelope text-secondary3 "></i></span>
+                     <input type="text" class="bg-transparent outline-none text-xs md:text-sm md:w-2/4 w-2/4"   placeholder="Type your emal to receive update"> 
+                     <div class="flex-shrink">
+                        <a href="#" class="rounded-full text-white border border-secondary3 bg-secondary3 md:px-8 py-2 px-6">Subscribe</a>
+
+                     </div>
+
+                </div>
+            <p class="text-xs font-extralight  text-gray-500 mr-8 pt-4 md:pt-0">
+                No fluff, just what you need to know. No spam. Never shared. Opt out at any time.
+
+            </p>
+            </div>
+         -->
+        </section>
+        
+        <footer class="content py-10 md:px-20 px-8 bg-gradient-to-r  bg-gray-100 ">
+        
+          
+
+           
+
+            <div class="social md:w-2/4 w-3/4 mt-10 flex font-light mx-auto justify-evenly text-m  text-textgray ">
+                <a target="_blank" rel="near" href="https://gov.near.org/" >
+                    <i class=" x-lg text-gray-400 fab fa-discourse"></i>
+                </a>
+                <a target="_blank" rel="noopener" href="https://twitter.com/nearprotocol">
+                    <i class=" text-gray-400 fab fa-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener" href="https://github.com/near">
+                    <i class="text-gray-400 fab fa-github"></i>
+                </a>
+                <a target="_blank" rel="noopener" href="http://near.chat/">
+                    <i class="text-gray-400 fab fa-discord"></i>
+
+                </a>
+                
+                <a target="_blank" rel="noopener" href="https://t.me/cryptonear">
+                    <i class="text-gray-400 fab fa-telegram"></i>
+
+                </a>
+                <a target="_blank" rel="noopener" href="https://near.org/wechat">
+                    <i class=" text-gray-400 fab fa-weixin"></i>
+
+
+                </a>
+                
+                <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw">
+                    <i class=" text-gray-400 fab fa-youtube"></i>
+
+
+                </a>
+
+            </div>
+            
+            <div class="md:flex md:w-2/4 w-3/4  mx-auto pt-16 justify-between">
+                <p class="text-gray-500 text-sm">2022 NEAR Protocol</p>
+                <div class="md:border h-8 border-r-1 border-gray-200"></div>
+                <p class="text-gray-500 text-sm">hello@near.foundation</p>
+                <div class="md:border border-r-1 h-8 border-gray-200"></div>
+
+                <p class="text-gray-500 text-sm">
+                    <a target="_blank" rel="noopener" href="https://near.org/privacy">
+                       Privacy Policy
+    
+    
+                    </a>
+                </p>
+            </div>
+
+
+        </footer>
+
+        <script>
+            const btn = document.querySelector(".mobile-btn");
+            const menu = document.querySelector(".mobile-menu");
+
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+            
+            function todayDate(){
+                var d = new Date();
+                var n = d.getFullYear() + "  ";
+                return document.getElementById("date").innerHTML = n;
+            }
+        </script>
+
+
+</body>
+
+</html>
+
+
